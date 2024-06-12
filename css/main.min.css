@@ -97,6 +97,17 @@ a {
   color: rgba(255, 255, 255, 0.5647058824);
 }
 
+.header__item :hover {
+  color: #fff;
+}
+
+.header__item:hover {
+  color: #fff;
+  transition: all 0.5s linear;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1100px) {
   .header__bootom {
     flex-direction: column;
@@ -305,6 +316,9 @@ a {
 .footer__list {
   display: flex;
   gap: 40px;
+}
+.footer__item {
+  color: rgba(255, 255, 255, 0.5647058824);
 }
 .footer__left-second-text {
   color: rgba(255, 255, 255, 0.5647058824);

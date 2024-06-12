@@ -50,6 +50,15 @@
 .href-a {
   color: #ffffff90;
 }
+.header__item :hover {
+  color: #fff;
+}
+.header__item:hover {
+  color: #fff;
+  transition: all 0.5s linear;
+  transform: scale(1.5);
+  cursor: pointer;
+}
 @media only screen and (max-width: 1100px) {
   .header__bootom {
     flex-direction: column;
