@@ -1,0 +1,72 @@
+.meet {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  &__title {
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 64px;
+  }
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  &__card {
+    background-color: #012f34;
+    padding: 35px 127px 56px 127px;
+    border-radius: 7px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  &__card-title {
+    color: #79c8c7;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  &__card-text {
+    color: #ffffff90;
+  }
+  &__card6 {
+    background-color: #012f34;
+    padding: 35px 53px 35px 52px;
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  &__card-text6 {
+    width: 254px;
+  }
+  &__card-plus {
+    position: absolute;
+    bottom: -20px;
+    left: 150px;
+  }
+  &__card-qush {
+    padding-top: 20px;
+  }
+  &__card-ix {
+    position: absolute;
+    bottom: -20px;
+    left: 150px;
+  }
+}
+.meet-wrapper {
+  background-color: rgb(0, 64, 71);
+}
+@media only screen and (max-width: 1100px) {
+}
+@media only screen and (max-width: 393px) {
+  .meet__card {
+    padding: 32px 96px;
+  }
+  .meet__card6 {
+    padding: 22px 23px;
+  }
+  .meet__card-qush {
+    padding-right: 50px;
+  }
+}

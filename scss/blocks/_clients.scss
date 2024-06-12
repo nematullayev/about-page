@@ -1,0 +1,29 @@
+.clients {
+  padding-top: 140px;
+  &__title {
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  &__bootom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 79px;
+    align-items: center;
+    padding-bottom: 151px;
+  }
+}
+.clients-wrapper {
+  background-color: #012f34;
+}
+@media only screen and (max-width: 1100px) {
+  .clients__bootom {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+}
